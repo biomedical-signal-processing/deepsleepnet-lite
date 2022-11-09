@@ -111,7 +111,7 @@ fold (i.e., `fold_idx=0...19`). Run the following script to run batch training o
 
 #### Pre-trained *DeepSleepNet-Lite* models 
 
-We provide in this [model.zip](https://drive.google.com/file/d/112_uxXTtAC-LGoFERAyAOd6IqxqHwc4p/view?usp=sharing) 
+We provide in [model.zip](https://drive.google.com/file/d/112_uxXTtAC-LGoFERAyAOd6IqxqHwc4p/view?usp=sharing) 
 file all the pre-trained models on both the versions v1 and v2, using the two different trims.  
 
 ## Prediction
