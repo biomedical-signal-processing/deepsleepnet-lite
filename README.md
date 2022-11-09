@@ -30,6 +30,7 @@ predicts the corresponding target of the central epoch of the sequence.
 
 The architecture of *DeepSleepNet-Lite*:
 ![DeepSleepNet-Lite](./img/deepsleepnet-lite.png)
+
 NOTE: Fs is the sampling rate of the EEG signals in input.
 
 ## Environment
