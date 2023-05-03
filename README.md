@@ -69,12 +69,14 @@ the zipped data file, and to move it in the main project directory DeepSleepNet-
 ```
 └─ deepsleepnet-lite-main
    ├─ data
-      ├─ cpd
-      ├─ eeg_FpzCz_PzOz_v1
-      ├─ eeg_FpzCz_PzOz_v2
-      ├─ data_split_v1
-      ├─ data_split_v2
-      
+      ├─ SleepEDF
+         ├─processed
+            ├─ cpd
+            ├─ eeg_FpzCz_PzOz_v1
+            ├─ eeg_FpzCz_PzOz_v2
+            ├─ data_split_v1
+            ├─ data_split_v2
+
 ```
 
 The validation procedure and the data-split is in line with the state-of-the-art methods. 
