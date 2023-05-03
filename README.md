@@ -138,7 +138,7 @@ percentage of misclassified epochs detected by using the mu-query-procedure
 of all the *DeepSleepNet-Lite* models 
 (e.g. **base** model on v1).
 
-    python summary_muquery.py --data_dir output/results_repo/v1/base
+    python summary_muquery.py --data_dir output/results/v1/base
 
 ## References
 
