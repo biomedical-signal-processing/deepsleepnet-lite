@@ -115,4 +115,3 @@ dependencies:
     - wandb==0.10.2
     - watchdog==0.10.3
     - wfdb==3.1.0
-prefix: /home/luigi/anaconda3/envs/DSN_env_py3
