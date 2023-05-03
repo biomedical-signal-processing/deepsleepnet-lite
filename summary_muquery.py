@@ -16,38 +16,6 @@ from sklearn.metrics import confusion_matrix, f1_score, cohen_kappa_score
 
 from deepsleeplite.sleep_stages import W, N1, N2, N3, REM
 
-coding2stages = {
-    0 : "W",
-    1 : "N1",
-    2 : "N2",
-    3 : "N3",
-    4 : "R"
-}
-
-coding2col = {
-    0 : "k",
-    1 : "green",
-    2 : "r",
-    3 : "b",
-    4 : "c"
-}
-
-codingChange = {
-    0 : 4,
-    1 : 2,
-    2 : 1,
-    3 : 0,
-    4 : 3
-}
-
-new_codingChange = {
-    0 : 0,
-    1 : 2,
-    2 : 3,
-    3 : 4,
-    4 : 1
-}
-
 def _compute_calibration_bin_statistics(num_bins, logits=None, labels_true=None, labels_predicted=None):
   """Compute binning statistics required for calibration measures.
   Args:
