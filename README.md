@@ -67,7 +67,7 @@ file all the recordings of both the versions v1 and v2, extracted using the two 
 the zipped data file, and to move it in the main project directory DeepSleepNet-Lite as follows:
 
 ```
-└─ DeepSleepNet-Lite
+└─ deepsleepnet-lite
    ├─ data
       ├─ cpd
       ├─ eeg_FpzCz_PzOz_v1
